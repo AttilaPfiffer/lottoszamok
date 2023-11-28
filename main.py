@@ -1,0 +1,20 @@
+import feladatok
+
+szam_lista = [1, 21, 36, 42, 57, 68, 72, 85, 90, 104, 11, 122, 139, 141, 155]
+print("\n")
+atlag: int = feladatok.feladat1(szam_lista)
+print(f"A számok átlaga: {atlag}")
+print("\n")
+nagyobb_mint: int = feladatok.feladat2(szam_lista)
+print(f"50-nél nagyobb számok: {nagyobb_mint}")
+print("\n")
+legnagyobb: int = feladatok.feladat3(szam_lista)
+print(f"A legnagyobb szám ezek közül: {legnagyobb}")
+print("\n")
+legkisebb: int = feladatok.feladat5(szam_lista)
+print(f"A legkisebb szám a számok közül: {legkisebb}")
+print("\n")
+kulonbseg: int = feladatok.feladat6(szam_lista)
+print(f"A két szám közötti különbség: {kulonbseg}")
+print("\n")
+feladatok.feladat7(szam_lista)
